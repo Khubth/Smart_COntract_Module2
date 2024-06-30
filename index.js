@@ -4,7 +4,7 @@ import crypto_making_tree_abi from "../artifacts/contracts/MySmartContract.sol/S
 
 export default function Homepage() {
 
-    const [meMessage,setMeMessage] = useState("Hi There (^_^)");
+    const [meMessage,setMeMessage] = useState("Hi Khushi there!");
     const [defaultAccount,setDefaultAccount] = useState(undefined);
     const [balance,setBalance] = useState(undefined);
     const [ethWallet,setEthWallet] = useState(undefined); 
@@ -106,7 +106,7 @@ export default function Homepage() {
 
     return (
       <main className="container">
-        <header><h1>Welcome to the Metacrafters Novice's Infinite Crypto Currency Making Tree Interface!</h1></header>
+        <header><h1>Greetings Everyone. Welcome to the Metacrafters! </h1></header>
         <h2>{meMessage}</h2>
         {initUser()}
         <style jsx>{`
