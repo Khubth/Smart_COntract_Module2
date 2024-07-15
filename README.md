@@ -9,16 +9,16 @@
  # Description:
   Develop a React application to interact with the smart contract.
 
- > index.js: Entry point for the React application.
- > MySmartContract.sol: Solidity file defining the smart contract.
- > deploy.js: Script to deploy the smart contract.
- > scripts/ directory: Contains deployment script (deploy.js).
+ 1. index.js: Entry point for the React application.
+ 2. MySmartContract.sol: Solidity file defining the smart contract.
+ 3. deploy.js: Script to deploy the smart contract.
+ 4. scripts/ directory: Contains deployment script (deploy.js).
  
 # Requirements:
 
- > Node.js (v14.0.0 or higher) installed.
- > MetaMask wallet extension installed in your browser.
- > Starter Next.js or Hardhat project setup.
+ 1. Node.js (v14.0.0 or higher) installed.
+ 2. MetaMask wallet extension installed in your browser.
+ 3. Starter Next.js or Hardhat project setup.
 
 # Deployment and Setup
  
