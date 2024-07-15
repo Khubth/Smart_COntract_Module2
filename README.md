@@ -23,29 +23,29 @@
 # Deployment and Setup
  
  Steps:
- > Install project dependencies: npm install
- > Start a local Ethereum node using Hardhat: npx hardhat node
- > Deploy your smart contract to the local network:
+ 1. Install project dependencies: npm install
+ 2. Start a local Ethereum node using Hardhat: npx hardhat node
+ 3. Deploy your smart contract to the local network:
 
    npx hardhat run --network localhost scripts/deploy.js
 
- > Start the React application: npm run dev
+ 4. Start the React application: npm run dev
 
 # Configuring MetaMask:
 
-> Open MetaMask and add a custom network:
-> Network Name: ETH (As per your choice)
-> New RPC URL: http://127.0.0.1:8545/
-> Chain ID: 31337
-> Currency Symbol: ETH
-> Switch MetaMask to use the newly added local network.
+1. Open MetaMask and add a custom network:
+2. Network Name: ETH (As per your choice)
+3. New RPC URL: http://127.0.0.1:8545/
+4. Chain ID: 31337
+5. Currency Symbol: ETH
+6. Switch MetaMask to use the newly added local network.
 
 # Technologies Used
 
-> React: JavaScript library for building user interfaces.
-> Ethereum: Blockchain network for decentralized applications.
-> MetaMask: Ethereum wallet and gateway to blockchain networks.
-> ethers.js: JavaScript library for interacting with Ethereum smart contracts.
+1. React: JavaScript library for building user interfaces.
+2. Ethereum: Blockchain network for decentralized applications.
+3. MetaMask: Ethereum wallet and gateway to blockchain networks.
+4. ethers.js: JavaScript library for interacting with Ethereum smart contracts.
 
 # Author
 Khushi Ranjana
