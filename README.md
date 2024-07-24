@@ -1,52 +1,65 @@
-# Smart_COntract_Module2
+## ETH_AVAX_MODULE_2_PROJECT-3
+
+### Interact with Smart Contract Through a Front-End Application
+
+## Description
+
+In this project, we'll create a simple smart contract with 2-3 functions and display the values of those functions in a front-end application. The files `index.js`, `MySmartContract.sol`, and `deploy.js` will help you practice interacting with your smart contract through a web interface.
+
+## Prerequisites
+
+- Node.js (v14.0.0 or higher)
+- MetaMask wallet extension installed in your browser
+
+## Getting Started
+
+After cloning the GitHub repository, follow these steps to get the code running on your computer:
+
+1. Open the project directory in your terminal and run: 
+   
+    npm i
+    
+2. Open two additional terminal windows in VS Code.
+3. In the second terminal, run:
+   
+    npx hardhat node
+
+4. In the third terminal, run:
+  
+    npx hardhat run --network localhost scripts/deploy.js
  
- #  Smart Contract (MySmartContract.sol)
-> Functions: Create a simple smart contract with 2-3 functions.
+5. In the first terminal, start the front end with:
 
-> getData(): Returns some data stored in the contract.
-> setData(string newData): Sets new data in the contract.
+    npm run dev
 
- # Description:
-  Develop a React application to interact with the smart contract.
 
- 1. index.js: Entry point for the React application.
- 2. MySmartContract.sol: Solidity file defining the smart contract.
- 3. deploy.js: Script to deploy the smart contract.
- 4. scripts/ directory: Contains deployment script (deploy.js).
- 
-# Requirements:
+6. Open the application in your browser. It will typically be running on:
 
- 1. Node.js (v14.0.0 or higher) installed.
- 2. MetaMask wallet extension installed in your browser.
- 3. Starter Next.js or Hardhat project setup.
+    http://localhost:3000
+  
 
-# Deployment and Setup
- 
- Steps:
- 1. Install project dependencies: npm install
- 2. Start a local Ethereum node using Hardhat: npx hardhat node
- 3. Deploy your smart contract to the local network:
+## Setting Up Local Network and Dummy Account in MetaMask
 
-   npx hardhat run --network localhost scripts/deploy.js
+To allow MetaMask to communicate with your local node, set up a local network in MetaMask:
 
- 4. Start the React application: npm run dev
+1. Click on the MetaMask extension and then on the network selection button (top middle button).
+2. Click "Add a Network" and then "Add a Network Manually."
+3. Fill in the following details:
+   - Network Name: (any name you want)
+   - New RPC URL: `http://127.0.0.1:8545/`
+   - Chain ID: `31337`
+   - Currency Symbol: `ETH`
+4. Set your MetaMask wallet network to the newly created local network.
 
-# Configuring MetaMask:
+## Technologies Used
 
-1. Open MetaMask and add a custom network:
-2. Network Name: ETH (As per your choice)
-3. New RPC URL: http://127.0.0.1:8545/
-4. Chain ID: 31337
-5. Currency Symbol: ETH
-6. Switch MetaMask to use the newly added local network.
+- React - JavaScript library for building user interfaces
+- Ethereum - Blockchain network for decentralized applications
+- MetaMask - Wallet and gateway to the Ethereum blockchain
+- ethers.js - Library for interacting with Ethereum smart contracts
 
-# Technologies Used
+## Author
 
-1. React: JavaScript library for building user interfaces.
-2. Ethereum: Blockchain network for decentralized applications.
-3. MetaMask: Ethereum wallet and gateway to blockchain networks.
-4. ethers.js: JavaScript library for interacting with Ethereum smart contracts.
-
-# Author
-Khushi Ranjana
+Khushi Ranjana  
+21BCS9320@cuchd.in
 
