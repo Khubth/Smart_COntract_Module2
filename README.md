@@ -1,10 +1,10 @@
-## ETH_AVAX_MODULE_2_PROJECT-3
+## ETH_AVAX_MODULE_2
 
 ### Interact with Smart Contract Through a Front-End Application
 
 ## Description
 
-In this project, we'll create a simple smart contract with 2-3 functions and display the values of those functions in a front-end application. The files `index.js`, `MySmartContract.sol`, and `deploy.js` will help you practice interacting with your smart contract through a web interface.
+In this project, we'll create a simple smart contract with 2-3 functions and display the values of those functions in a front-end application. The files `index.js`, `MySmartContract.sol`, and `deploy.js` will help us practice interacting with our smart contract through a web interface.
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ After cloning the GitHub repository, follow these steps to get the code running 
     npm run dev
 
 
-6. Open the application in your browser. It will typically be running on:
+6. Open the application in our browser. It will typically be running on:
 
     http://localhost:3000
   
