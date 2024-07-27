@@ -4,7 +4,7 @@
 
 ## Description
 
-In this project, we'll create a simple smart contract with 2-3 functions and display the values of those functions in a front-end application. The files `index.js`, `MySmartContract.sol`, and `deploy.js` will help us practice interacting with our smart contract through a web interface.
+For this project, create a simple contract with 2-3 functions. Then show the values of those functions in frontend of the application. The files index.js, MySmartContract.sol, and deploy.js contain codes to practice interaction with the SmartContract_with_Front_end_interaction smart contract through a website.
 
 ## Prerequisites
 
@@ -27,20 +27,20 @@ After cloning the GitHub repository, follow these steps to get the code running 
 
 To allow MetaMask to communicate with your local node, set up a local network in MetaMask:
 
--> Click on (Add a Network)
--> Click on (Add a Network Manually)
--> Give the (Network name - whatever you want)
--> Set the (New RPC URL - http://127.0.0.1:8545/ )
--> Set the (Chain ID - 31337 )
--> Set the (Currency symbol - ETH )
-->Now set the MetaMask wallet network to the newly created local network
+1.  Click on (Add a Network)
+2.  Click on (Add a Network Manually)
+3.  Give the (Network name - whatever you want)
+4.  Set the (New RPC URL - http://127.0.0.1:8545/ )
+5.  Set the (Chain ID - 31337 )
+6.  Set the (Currency symbol - ETH )
+7.  Now set the MetaMask wallet network to the newly created local network
 
 ## Technologies Used
 
--> React - JavaScript library for building user interfaces
--> Ethereum - Blockchain network for decentralized applications
--> MetaMask - Wallet and gateway to the Ethereum blockchain
--> ethers.js - Library for interacting with Ethereum smart contracts
+1.  React - JavaScript library for building user interfaces
+2.  Ethereum - Blockchain network for decentralized applications
+3.  MetaMask - Wallet and gateway to the Ethereum blockchain
+4.  ethers.js - Library for interacting with Ethereum smart contracts
 
 ## Project Structure
 The project is organized as follows:
