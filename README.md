@@ -11,6 +11,13 @@ For this project, create a simple contract with 2-3 functions. Then show the val
 - Node.js (v14.0.0 or higher)
 - MetaMask wallet extension installed in your browser
 
+# Features
+Deposit and withdraw ETH (for contract owner)
+Add items for sale
+Buy items with ETH
+View balance 
+Display items for sale and purchase status
+
 ## Getting Started
 
 After cloning the GitHub repository, follow these steps to get the code running on your computer:
@@ -57,6 +64,11 @@ The project is organized as follows:
 2. Deploy the Smart Contract: Use Hardhat to deploy the smart contract to a local Ethereum network.
 3. Build the Front-End: Create a React front-end to interact with the deployed smart contract.
 4. Test the Integration: Ensure the front-end correctly interacts with the smart contract functions.
+5. Connect Wallet: Click the button to connect your MetaMask wallet.
+6. Deposit ETH: Click the "Deposit 1 ETH" button to deposit 1 ETH into the contract.
+7. Withdraw ETH: Click the "Withdraw 1 ETH" button to withdraw 1 ETH from the contract.
+8. Buy Items: Click the "Buy" button next to an available item to purchase it.
+9. View Balance and Transactions: The UI displays your current balance and transaction history.
 
 ## Author
 
